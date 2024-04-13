@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent (label 'agent-ubuntu')
 
     stages {
         stage('Checkout') {
@@ -18,7 +18,7 @@ pipeline {
 
                  Thank you
                  Nithishkumar
-                ''', subject: 'Details about jenkins jobs', to: 'nithishkumar0064@gmail.com'
+                ''', subject: 'Details about jenkins jobs', to: 'nithilak.2014@gmail.com'
 
             }
         }
