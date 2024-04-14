@@ -1,5 +1,5 @@
 pipeline {
-    agent (label 'agent-ubuntu')
+    agent any
 
     stages {
         stage('Checkout') {
